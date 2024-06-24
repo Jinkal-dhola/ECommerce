@@ -1,0 +1,79 @@
+::placeholder {
+  color: #707070;
+}
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: #707070;
+}
+
+.login-section {
+  background: #fef3ef;
+  width: 100%;
+  padding: 50px 0px;
+  background-image: image-set(url("../images/account-bg.png") 1x);
+  background-size: cover; /* Adjust to 'contain' if you prefer */
+  background-repeat: no-repeat; /* Ensures the background image is not repeated */
+  background-position: center;
+}
+
+.login-img {
+  width: 85%;
+  height: 100vh;
+}
+
+.card-section {
+  border-radius: 5px;
+  /*background-color: #F76D6D1F;*/
+}
+
+.login-section-cart {
+  box-shadow: 13px 12px 20px 0px #0000002b;
+  background: #f76d6d;
+  border-radius: 25px !important;
+  margin: 75px 20px 50px 20px;
+  padding: 25px;
+}
+
+.form-control {
+  border-radius: 8.25rem !important;
+  border: 0px !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.h-input-label {
+  font-weight: 600;
+  line-height: 28.65px;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.forgot-password.h-input-label {
+  color: #fff; /* Set default color to white */
+  transition: color 0.3s; /* Add transition effect for smooth color change */
+}
+
+.forgot-password.h-input-label:hover {
+  color: #582626; /* Set hover color to pink */
+}
+
+.primary-btn {
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 63px;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .img-wrapper img {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-section-cart {
+    margin: 0px;
+  }
+}

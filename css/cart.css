@@ -1,0 +1,181 @@
+﻿::placeholder {
+    color: #707070;
+  }
+  
+  ::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #707070;
+  }
+
+.login-section {
+  background: #fef3ef;
+  width: 100%;
+}
+
+.login-img {
+  width: 85%;
+  height: 100vh;
+}
+
+.card-section {
+  border-radius: 5px;
+  /*background-color: #F76D6D1F;*/
+}
+
+.contact-content{
+    margin: 50px 20px 50px 20px ;
+}
+
+.login-section-cart {
+  box-shadow: 13px 12px 20px 0px #0000002b;
+  background: #f76d6d;
+  border-radius: 25px !important;
+  padding: 25px;
+}
+
+.form-control {
+  border-radius: 8.25rem !important;
+  border: 0px !important;
+}
+
+.h-input-label {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  line-height: 28.65px;
+  text-align: left;
+}
+
+.payment-option {
+  display: none;
+  margin-top: 10px;
+}
+
+.payment-image {
+  cursor: pointer;
+  margin: 5px;
+  border: 2px solid transparent;
+}
+
+.payment-image.selected {
+  border-color: #007bff;
+}
+
+.cart-p {
+  background-color: #ffff;
+  border-radius: 15px;
+  padding: 5px;
+  /* margin: 5px;
+  justify-content: center;
+  text-align: center; */
+}
+
+.cart-body-p {
+  border-radius: 8px;
+  margin: 15px;
+  padding: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.img-cont-cart {
+  width: 120px;
+  height: 120px;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.btn-outline-secondary-p {
+  color: #777;
+  background-color: transparent;
+  background-image: none;
+}
+
+.btn-outline-secondary-p:hover {
+  color: #fff;
+  background-color: #f76d6d;
+}
+
+.btn-outline-secondary-p.disabled,
+.btn-outline-secondary-p:disabled {
+  color: #f76d6d;
+  background-color: transparent;
+}
+
+.btn-outline-secondary-p:not([disabled]):not(.disabled):active,
+.btn-outline-secondary-p:not([disabled]):not(.disabled).active,
+.show > .btn-outline-secondary-p.dropdown-toggle {
+  color: #fff;
+  background-color: #f76d6d;
+}
+
+.number-box{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num-box {
+  border-color: #5b5b5b;
+  border: 2px solid #5b5b5b;
+  border-radius: 5px;
+  margin: 10px;
+  --bs-btn-padding-y: 0.25rem;
+  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-font-size: 0.875rem;
+  --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
+.price-num{
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+}
+
+.cart-title{
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+}
+.cart-payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.input-title{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+.sub-total{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+.primarybtn {
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    height: 64px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 13px !important;
+  }
+
+/* .quantity-selector {
+  margin: 50px;
+} */
+
+.num-box-p {
+  margin: 0px;
+  padding: 0px 5px 0px 5px;
+}
+
+.cart-title {
+  font-family: "Lato", sans-serif;
+}
